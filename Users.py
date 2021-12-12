@@ -18,7 +18,9 @@ class Users:
 
 andrei = Users('andrei','cop','e-cop','e-cop@gmail.com', 'quebec')
 andrei.describe_user()
+andrei.greet_user()
 
 ivan = Users('ivan', 'groznii', 'grozniiIvan', 'groznii@live.ca', 'Montreal')
 ivan.describe_user()
+ivan.greet_user()
 
